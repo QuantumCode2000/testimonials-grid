@@ -1,9 +1,6 @@
-const mountNode = document.querySelector("#app")
-const addCardButton = document.querySelector('button') 
+import data from "./dates.json"
 
-const addCard=()=>{
-    mountNode.appendChild(createCardNode())
-}
+
 const createCard = ()=>{
     //  primary container
     const card = document.createElement("div")
@@ -55,3 +52,9 @@ const createCard = ()=>{
 
     return card
 }
+
+const MontarNodo = document.querySelector("#app")
+const AgregarTarjeta = document.querySelector("button")
+const AgregarCard = () => {MontarNodo.appendChild(createCard)}
+AgregarTarjeta.addEventListener(click,AgregarCard)
+ 
