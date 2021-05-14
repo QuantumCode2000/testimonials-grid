@@ -44,6 +44,9 @@ html,body{
 .grayish{
     background: var(--Very-dark-grayish-blue);
 }
+.blackish{
+    background: var(--Very-dark-blackish-blue);
+}
 .text-white{
     color: var(--Light-grayish-blue);
 }
