@@ -21,9 +21,10 @@ html,body{
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: #edf2f8;
     
+    
 }
 .container-cards{
-    padding: 70px 25px 25px;
+    padding: 100px 150px;
     
 }
 .card{
@@ -49,6 +50,9 @@ html,body{
 }
 .text-white{
     color: var(--Light-grayish-blue);
+}
+.text-blackish{
+    color: var(--Very-dark-blackish-blue);
 }
 .white{
     background:var(--White);
@@ -76,4 +80,8 @@ html,body{
     opacity: 0.7;
     font-size: 13px;
     font-weight: 500;
+}
+
+button {
+    background-color: red;
 }
